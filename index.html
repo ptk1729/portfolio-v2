@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css"crossorigin="anonymous" >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="fullpage">
+      
+  <div class="section s1">
+    <div class="slide">
+      <h1>Team Websters</h1>
+    </div>
+    <div class="slide"><h1>We make Websites</h1></div>
+    <div class="slide"><h1>3</h1></div>
+    
+    </div>
+  <div class="section s2">
+  <h1>Prateek Rohilla</h1>
+    </div>
+  <div class="section s3">
+    <h1>Mayank Kapoor</h1>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.extensions.min.js" integrity="sha256-l/fwzXp9IwBn0fFrBx+IU4JGuSP5lZsfE5i8uMAWD90=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/scrolloverflow.min.js" integrity="sha256-R7CttZ4L0/szai0hbFUlPDiRaEJmqYuvLhyAOr19vQg=" crossorigin="anonymous"></script>
+<script>
+var myFullpage = new fullpage('#fullpage', {
+	//Navigation
+	menu: '#menu',
+	lockAnchors: false,
+	anchors:['firstPage', 'secondPage'],
+	navigation: true,
+	navigationPosition: 'right',
+	navigationTooltips: ['Home', 'Prateek', 'Mayank'],
+	showActiveTooltip: true,
+	slidesNavigation: true,
+	slidesNavPosition: 'top',
+
+	//Scrolling
+	css3: true,
+	scrollingSpeed: 1000,
+	autoScrolling: true,
+	fitToSection: true,
+	fitToSectionDelay: 700,
+	scrollBar: false,
+	easing: 'easeInOutCubic',
+	easingcss3: 'ease',
+	loopBottom: true,
+	loopTop: false,
+	loopHorizontal: false,
+	continuousVertical: false,
+	continuousHorizontal: false,
+	scrollHorizontally: false,
+	interlockedSlides: false,
+	dragAndMove: false,
+	offsetSections: false,
+	resetSliders: false,
+	fadingEffect: false,
+	normalScrollElements: '#element1, .element2',
+	scrollOverflow: true,
+	scrollOverflowReset: false,
+	scrollOverflowOptions: null,
+	touchSensitivity: 15,
+	bigSectionsDestination: null,
+
+	//Accessibility
+	keyboardScrolling: true,
+	animateAnchor: true,
+	recordHistory: true,
+
+	//Design
+	controlArrows: false,
+	verticalCentered: true,
+	paddingTop: '3em',
+	paddingBottom: '10px',
+	fixedElements: '#header, .footer',
+	responsiveWidth: 0,
+	responsiveHeight: 0,
+	responsiveSlides: false,
+	parallax: true,
+	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+	cards: true,
+	cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
+
+	//Custom selectors
+	sectionSelector: '.section',
+	slideSelector: '.slide',
+
+	lazyLoading: true,
+
+	//events
+	onLeave: function(origin, destination, direction){},
+	afterLoad: function(origin, destination, direction){},
+	afterRender: function(){},
+	afterResize: function(width, height){},
+	afterReBuild: function(){},
+	afterResponsive: function(isResponsive){},
+	afterSlideLoad: function(section, origin, destination, direction){},
+	onSlideLeave: function(section, origin, destination, direction){}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.s1 {
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=helloquence-5fNmWej4tAA-unsplash.jpg);
+  background-size: cover;
+  text-align: left;
+  font-family: 'Montserrat';
+  color: rgb(0, 0, 0);
+}
+
+.s2 {
+  background-image: url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+  background-size: cover;
+  text-align: left;
+  font-family: 'Montserrat';
+  color: rgb(0, 0, 0);
+}
+
+.s3 {
+  background-image: url(https://images.unsplash.com/photo-1563570433495-713db6dd0059?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=duncan-kidd-4v5ikYhL6kM-unsplash.jpg);
+  background-size: cover;
+  text-align: left;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-weight: 900;
+  font-family: 'Montserrat';
+  padding: 20%;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+}
+/*# sourceMappingURL=main.css.map */
