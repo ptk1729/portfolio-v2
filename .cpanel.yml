@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/teekroh40/public_html/Portfolio1
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
