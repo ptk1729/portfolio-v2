@@ -27,20 +27,28 @@
                         style="padding-left: 100px;min-width: 360px;padding-right: 100px;">
                         <br>
                         <div class="row">
-                            <div class="col-auto offset-2 offset-sm-3 offset-md-7 offset-lg-0 align-self-center m-auto">
-                                <img class="neu-big d-inline-flex flex-row flex-grow-1 flex-shrink-1 flex-fill justify-content-center align-items-center justify-content-xl-center p-2 m-2"
-                                    src="assets/img/pro2.jpg" style="width: 200px;height: auto;">
+                            <div class="col-auto align-self-center m-auto">
+                                <img class="neu-big p-2 m-2" src="assets/img/pro2.jpg"
+                                    style="width: 200px;height: auto;">
                             </div>
                         </div>
 
-                        <h2 class="text-left">
-                            <div> Hello! <i class="fa fa-hand-peace-o" aria-hidden="true"></i></div>
-                            <div> I am<strong> Prateek Rohilla</strong></div>
-                            <div> I build things for the web.
-                                <i class="fa fa-desktop" aria-hidden="true"></i></div>
-                        </h2>
 
-                        <h5 class="text-center">
+
+
+                        <div class="m-2">
+                            <h4 class="text-center"> Hello! <i class="fa fa-hand-peace-o" aria-hidden="true"></i></h4>
+                        </div>
+                        <div class="m-2">
+                            <h4 class="text-center"> I am <span style="font-weight: 800;"></span> Prateek Rohilla</h4>
+                        </div>
+                        <div class="m-2">
+                            <h4 class="text-center"> I build things for the web.
+                                <i class="fa fa-desktop" aria-hidden="true"></i></h4>
+                        </div>
+
+
+                        <h5 class="text-center m-3 p-2">
                             Get in Touch
                             <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                         </h5>
@@ -126,6 +134,11 @@
             var element = document.getElementById("resume");
             element.classList.toggle("sresume");
         }
+        $('#resume').click(function () {
+            //optionally remove the 500 (which is time in milliseconds) of the
+            //scrolling animation to remove the animation and make it instant
+            $.scrollTo($('#resume'), 500);
+        });
     </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
