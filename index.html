@@ -122,31 +122,17 @@ background: linear-gradient(121deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(46
 
                         </div>
                         <div class="col" style="display: flex; justify-content: center;">
-                            <button class="waves-effect waves-light btn btn-outline-dark neu"
-                                onclick="myFunction()">Resume</button>
+                            <a href="./assets/pdf/PrateekResume.pdf"
+                                class="waves-effect waves-light btn btn-outline-dark neu" target="_blank">Resume</a>
 
 
                         </div>
                     </div>
                 </div>
             </div>
-            <iframe id="resume" class="sresume" src="./assets/pdf/PrateekResume.pdf" width="100%"
-                height="500px"></iframe>
         </div>
     </div>
 
-
-    <script>
-        function myFunction() {
-            var element = document.getElementById("resume");
-            element.classList.toggle("sresume");
-        }
-        $('#resume').click(function () {
-            //optionally remove the 500 (which is time in milliseconds) of the
-            //scrolling animation to remove the animation and make it instant
-            $.scrollTo($('#resume'), 500);
-        });
-    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/button-materialize.js"></script>
